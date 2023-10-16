@@ -6,24 +6,26 @@ const pugDimensions = { width: 353 * 1.2, height: 325 * 1.2 };
 
 
 const levels = {
-  5: "Sr Assistant",
-  10: "Jr Honoror",
-  15: "Master Honoror",
-  35: "S Tier Honoror",
-  65: "Junior Acolyte",
-  105: "Acolyte",
-  150: "Senior Acolyte",
-  250: "Priest",
-  450: "Sage",
-  650: "Hermit",
-  1000: "Senior Hermit",
-  1500: "CEO",
-  2500: "Pope",
-  3500: "Underlord",
-  4500: "Lord",
-  10500: "OverLord",
-  20500: "King",
-  30500: "Anunnaki"
+  5: "Novice Worshipper",
+  10: "Acolyte",
+  15: "Prayer Warrior",
+  35: "Altar Server",
+  65: "Lay Minister",
+  105: "Junior Deacon",
+  150: "Senior Deacon",
+  250: "Priest-in-Training",
+  450: "Ordained Priest",
+  650: "Confessor",
+  1000: "Canon",
+  1500: "Monsignor",
+  2500: "Archpriest",
+  3500: "Suffragan Bishop",
+  4500: "Diocesan Bishop",
+  10500: "Metropolitan Bishop",
+  20500: "Archbishop",
+  30500: "Primate",
+  40500: "Cardinal",
+  50500: "Pope of Zosia Worship"
 }
 
 const startTime = Date.now();
@@ -33,9 +35,9 @@ canvas.height = window.innerHeight;
 context.translate(window.innerWidth / 2, window.innerHeight / 2);
 
 const image = new Image();
-image.src = "./assets/pug.png"; // Photo credit to Matthew Henry (https://unsplash.com/photos/U5rMrSI7Pn4)
+image.src = "./assets/godess_zosia.png";
 
-const loopingPugs = 40; // 125 pugs required to cover a full 4K television screen. Tested via Firefox DevTools
+const loopingPugs = 40;
 const offsetDistance = 120;
 let currentOffset = 0;
 
